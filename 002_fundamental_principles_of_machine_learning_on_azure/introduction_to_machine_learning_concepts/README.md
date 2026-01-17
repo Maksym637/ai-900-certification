@@ -25,16 +25,20 @@ Regression models are trained to predict numeric label values based on training 
 Regression evaluation metrics:
 
 - Mean Absolute Error (MAE):
-  $MAE=\frac{1}{n} \sum_{i=1}^n |y_{i} - y^{*}_{i}|$
+
+$MAE=\frac{1}{n} \sum_{i=1}^n |y_{i} - y^{*}_{i}|$
 
 - Mean Squared Error (MSE):
-  $MSE=\frac{1}{n} \sum_{i=1}^n (y_{i} - y^{*}_{i})^2$
+
+$MSE=\frac{1}{n} \sum_{i=1}^n (y_{i} - y^{*}_{i})^2$
 
 - Root Mean Squared Error (RMSE):
-  $RMSE=\sqrt{\frac{1}{n}\sum_{i=1}^n (y_{i} - y^{*}_{i})^2}$
+
+$RMSE=\sqrt{\frac{1}{n}\sum_{i=1}^n (y_{i} - y^{*}_{i})^2}$
 
 - Coefficient of determination (R2)
-  $R^2 = 1 - \frac{\sum_{i=1}^n (y_{i} - y^{*}_{i})^2}{\sum_{i=1}^n (y_{i} - y^{-})^2}$
+
+$R^2 = 1 - \frac{\sum_{i=1}^n (y_{i} - y^{*}_{i})^2}{\sum_{i=1}^n (y_{i} - y^{-})^2}$
 
 ---
 
@@ -45,16 +49,20 @@ Classification, like regression, is a supervised machine learning technique; and
 Binary classification evaluation metrics:
 
 - Accuracy:
-  $Accuracy=\frac{TN + TP}{TN + FN + FP + TP}$
+
+$Accuracy=\frac{TN + TP}{TN + FN + FP + TP}$
 
 - Recall:
-  $Recall=\frac{TP}{TP + FN}$
+
+$Recall=\frac{TP}{TP + FN}$
 
 - Precision:
-  $Precision=\frac{TP}{TP+FP}$
+
+$Precision=\frac{TP}{TP+FP}$
 
 - F1-score:
-  $F1-score=\frac{2*Precision*Recall}{Precision + Recall}$
+
+$F1-score=\frac{2*Precision*Recall}{Precision + Recall}$
 
 - Area Under the Curve (AUC) is _the ROC curve_;
 
